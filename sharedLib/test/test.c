@@ -1,6 +1,5 @@
-#include "yf.h"
 #include <stdio.h>
-
+#include "yf.h"
 int main(void)
 {
 	int sum =0;
@@ -9,4 +8,5 @@ int main(void)
 	sum = func2(1,2);
 	printf("1+2 = %d\n",sum);
 	return 0;
+	
 }
